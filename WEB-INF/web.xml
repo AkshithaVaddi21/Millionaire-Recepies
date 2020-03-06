@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>servlet1</servlet-name>
+    <servlet-class>mainPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet1</servlet-name>
+    <url-pattern>/start</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/userlogin</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>publishcheckservlet</servlet-name>
+    <servlet-class>publishCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>publishcheckservlet</servlet-name>
+    <url-pattern>/usercheck</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>publisheventservlet</servlet-name>
+    <servlet-class>publishEvent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>publisheventservlet</servlet-name>
+    <url-pattern>/publish</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>dynamiceventservlet</servlet-name>
+    <servlet-class>dynamicEvents</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dynamiceventservlet</servlet-name>
+    <url-pattern>/dynamic</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>imgretrive</servlet-name>
+    <servlet-class>imgRetriveDb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>imgretrive</servlet-name>
+    <url-pattern>/img</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>logoutservlet</servlet-name>
+    <servlet-class>logoutSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logoutservlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>eventinfo</servlet-name>
+    <servlet-class>eventMoreInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eventinfo</servlet-name>
+    <url-pattern>/ret3</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>eventregpage</servlet-name>
+    <servlet-class>eventRegisterPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eventregpage</servlet-name>
+    <url-pattern>/register</url-pattern>
+ </servlet-mapping>
+<servlet>
+    <servlet-name>registereduserdb</servlet-name>
+    <servlet-class>registeredUserDb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registereduserdb</servlet-name>
+    <url-pattern>/registerdata</url-pattern>
+ </servlet-mapping>
+</web-app>
